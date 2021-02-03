@@ -3,13 +3,13 @@ import { Button } from 'gatsby-theme-material-ui'
 import Layout from '../components/Layout'
 
 // markup
-const IndexPage: FC = (): ReactElement => {
+const Test: FC = (): ReactElement => {
   return (
     <Layout>
-      <Button to='/test'>To test</Button>
+      <Button to='/'>To Index</Button>
       test
     </Layout>
   )
 }
 
-export default IndexPage
+export default Test

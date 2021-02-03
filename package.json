@@ -1,9 +1,13 @@
 {
-  "name": "echocow-blog",
+  "name": "gatsby-template",
   "version": "1.0.0",
   "private": true,
-  "description": "echocow-blog",
-  "author": "李中月",
+  "description": "Gatsby Template",
+  "author": {
+    "name": "阿月很乖",
+    "url": "https://github.com/lizhongyue248",
+    "email": "lizhongyue248@163.com"
+  },
   "keywords": [
     "gatsby"
   ],
@@ -15,6 +19,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "ahooks": "^2.9.6",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.10.0",
     "gatsby-plugin-google-analytics": "^2.10.0",
@@ -26,6 +32,7 @@
     "gatsby-plugin-sitemap": "^2.11.0",
     "gatsby-plugin-typescript": "^2.11.0",
     "gatsby-source-filesystem": "^2.10.0",
+    "gatsby-theme-material-ui": "^1.0.13",
     "gatsby-transformer-asciidoc": "^1.9.0",
     "gatsby-transformer-sharp": "^2.11.0",
     "postcss": "^8.2.4",
@@ -40,6 +47,7 @@
     "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.14.2",
+    "babel-preset-gatsby": "^0.12.0",
     "eslint": "^7.19.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-config-standard-jsx": "^10.0.0",

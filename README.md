@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/lizhongyue248/gatsby-template-zyue)
+
 # Gatsby Template
 
 个人初始化 Gatsby 使用模板
